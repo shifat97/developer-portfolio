@@ -9,11 +9,19 @@
 
 /* Header Styles Starts Here*/
 
+.header-banner-container {
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, 23px;
+    background-size: 700px, 100px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 230px;
+    padding: 30px 226px;
 }
 
 .logo {
@@ -55,12 +63,16 @@ header {
 }
 
 /* Banner Styles Strats Here */
-
+/* Banner Left Section */
 .banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0 0 0 230px;
+    padding: 0px 0px 0px 226px;
+}
+
+.banner-left {
+    width: 50%;
 }
 
 .banner-left>h3 {
@@ -83,7 +95,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin: 18px 0;
+    margin: 24px 0;
 }
 
 .banner-left-cv-btn {
@@ -107,4 +119,15 @@ header {
     font-size: 20px;
     font-weight: 700;
     margin-left: 30px;
+}
+
+/* Banner Right Section */
+.banner-right {
+    width: 50%;
+}
+
+.banner-right>img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
