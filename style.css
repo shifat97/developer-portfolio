@@ -235,3 +235,74 @@ header {
     font-weight: 400;
     line-height: 28px;
 }
+
+/* Summary Section Styles Starts Here */
+
+.summary-container {
+    padding: 0 226px;
+}
+
+.summary-contents {
+    margin-top: 130px;
+}
+
+.summary-contents>h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+}
+
+.summary-card-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 2rem;
+}
+
+.summary-card-experience>h1, .summary-card-education>h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: #474747;
+}
+
+.card-summary>:nth-child(1) {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 20px;
+} 
+
+.card-summary>:nth-child(2) {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-summary>:nth-child(3) {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.card-summary>:nth-child(4) {
+    width: 100%;
+    background-color: #D1D1D1;
+    height: 1px;
+    border: none;
+    position: relative;
+    bottom: 0;
+}
+
+#btn-summary-download {
+    display: block;
+    margin: auto;
+    margin-top: 32px;
+}
