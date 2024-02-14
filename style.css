@@ -127,9 +127,10 @@ header {
 }
 
 .banner-right>img {
-    width: 100%;
+    width: 584px;
     height: auto;
     display: block;
+    margin: 0 0 0 auto;
 }
 
 /* About Section Styles Strats Here */
