@@ -263,7 +263,8 @@ header {
     gap: 2rem;
 }
 
-.summary-card-experience>h1, .summary-card-education>h1 {
+.summary-card-experience>h1,
+.summary-card-education>h1 {
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -275,7 +276,7 @@ header {
     font-weight: 700;
     color: #474747;
     margin-top: 20px;
-} 
+}
 
 .card-summary>:nth-child(2) {
     font-size: 20px;
@@ -306,4 +307,82 @@ header {
     display: block;
     margin: auto;
     margin-top: 32px;
+}
+
+/* Contact Section Styles Starts Here */
+
+.contact-container {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 226px;
+}
+
+.contact-contents {
+    display: flex;
+    gap: 117px;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-left>h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.contact-left>p {
+    font-size: 16px;
+    color: #474747;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 28px;
+}
+
+.social-icons>i {
+    color: #FD6E0A;
+    margin-right: 10px;
+}
+
+/* Contact Right Start Here */
+
+.contact-right {
+    width: 50%;
+}
+
+.contact-right>h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.contact-right>input {
+    border-radius: 5px;
+    border: none;
+    padding: 18px 30px;
+    display: block;
+    margin-top: 28px;
+    width: 100%;
+}
+
+.contact-right>:nth-child(4) {
+    margin-top: 28px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 30px;
+    display: block;
+    width: 100%;
+}
+
+.btn-contact-submit {
+    width: 150px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    padding: 18px 30px;
+    margin-top: 28px;
 }
