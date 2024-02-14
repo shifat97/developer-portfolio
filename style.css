@@ -133,6 +133,7 @@ header {
 }
 
 /* About Section Styles Strats Here */
+
 .about-container {
     padding: 0 226px;
 }
@@ -179,4 +180,58 @@ header {
 .about-info>div>:nth-child(2) {
     color: #474747;
     font-weight: 700;
+}
+
+/* What I Do Styles Starts Here */
+
+.what-I-do-container {
+    padding: 0 226px;
+}
+
+.what-I-do-contents {
+    margin: 130px auto 0 auto;
+}
+
+.what-I-do-contents>h1 {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.what-I-do-contents>p {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 35px 0;
+}
+
+.what-I-do-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-what-I-do {
+    padding: 20px 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-what-I-do>h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.card-what-I-do>p {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
